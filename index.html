@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="bg-danger p-5">
+        <div class="container text-white text-center">
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="container bg-white p-5 text-danger">
+                <form action="">
+                    <div class="row pb-5">
+                        <div class="col-4">
+                            <div class="content">
+                                <h6>Nome e cognome</h6>
+                                <input type="text" class="userName" placeholder="Nome e Cognome">
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="content">
+                                <h6>Km da percorrere</h6>
+                                <input type="number" class="km" placeholder="Chilometri">
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="content">
+                                <h6>La tua età</h6>
+                                <input type="number" class="eta" placeholder="età">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="submitButton d-inline-block">
+                            <button class="button">Genera</button>
+                        </div>
+
+                        <div class="undoneButton d-inline-block">
+                            <button class="button">Annulla</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container text-white text-center">
+                <h1>IL TUO BIGLIETTO</h1>
+
+                <div class="container bg-white p-5 text-black text-start">
+                    <h3>DETTAGLIO PASSEGGERI</h3>
+                    <div class="row">
+                        <div class="col-4">
+                            <h3>NOME PASSEGGERO</h3>
+                            <div class="userName"></div>
+                        </div>
+                        <div class="col-2">
+                            <h5>Offerta</h5>
+                            <span>Biglietto standard</span>
+                        </div>
+                        <div class="col-2">
+                            <h5>Carrozza</h5>
+                            <span class="nCarrozza"></span>
+                        </div>
+                        <div class="col-2">
+                            <h5>Codice CP</h5>
+                            <span class="nCodice"></span>
+                        </div>
+                        <div class="col-2">
+                            <h5>Costo biglietto</h5>
+                            <span class="prezzoFinale"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
