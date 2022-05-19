@@ -7,12 +7,13 @@
     <title>Document</title>
 
     <link rel="stylesheet" href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="bg-danger p-5">
+    <div class="bg-general p-5">
         <div class="container text-white text-center">
-            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-            <div class="container bg-white p-5 text-danger">
+            <h1 class="pb-3">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="container bg-white p-3 mb-5 text-myprimary b-radius">
                 <div class="row pb-5">
                     <div class="col-4">
                         <div class="content">
@@ -51,32 +52,36 @@
                 <h1>IL TUO BIGLIETTO</h1>
 
                 <div class="container bg-white p-3 text-black text-start">
-                    <h3>DETTAGLIO PASSEGGERI</h3>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="bg-secondary h-100">
-                                <h3>NOME PASSEGGERO</h3>
-                                <h4 class="userNameTicket"></h4>
+                    <h3 class="fw-bold">DETTAGLIO PASSEGGERI</h3>
+                    
+                    <div class="ticket-content">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="bg-secondary h-100 text-center p-3">
+                                    <h4 class="fw-bold">NOME PASSEGGERO</h4>
+                                    <h4 class="userNameTicket"></h4>
+                                </div>
+                                
                             </div>
-                            
-                        </div>
-                        <div class="col-2">
-                            <h5 class="pb-5">Offerta</h5>
-                            <span class="ticketType"></span>
-                        </div>
-                        <div class="col-2">
-                            <h5 class="pb-5">Carrozza</h5>
-                            <span class="nCarrozza"></span>
-                        </div>
-                        <div class="col-2">
-                            <h5 class="pb-5">Codice CP</h5>
-                            <span class="nCodice"></span>
-                        </div>
-                        <div class="col-2">
-                            <h5 class="pb-5">Costo biglietto</h5>
-                            <span class="prezzoFinale"></span>
+                            <div class="col-2">
+                                <h5 class="pb-5">Offerta</h5>
+                                <span class="ticketType"></span>
+                            </div>
+                            <div class="col-2">
+                                <h5 class="pb-5">Carrozza</h5>
+                                <span class="nCarrozza"></span>
+                            </div>
+                            <div class="col-2">
+                                <h5 class="pb-5">Codice CP</h5>
+                                <span class="nCodice"></span>
+                            </div>
+                            <div class="col-2">
+                                <h5 class="pb-5">Costo biglietto</h5>
+                                <span class="prezzoFinale"></span>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

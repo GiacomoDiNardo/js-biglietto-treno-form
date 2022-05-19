@@ -33,7 +33,7 @@ submitButton.addEventListener("click", function () {
     const prezzoFinale = prezzoCalcolato.toFixed(2);
 
     userNameElement.innerHTML = inputName.value;
-    nCarrozza.innerHTML = parseInt(Math.random() * 10);
+    nCarrozza.innerHTML = parseInt(Math.random() * 10 + 1);
     nCodice.innerHTML = parseInt(Math.random() * 100000);
     prezzoTicket.innerHTML = prezzoFinale;
 })
